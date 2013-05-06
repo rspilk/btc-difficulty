@@ -1,3 +1,22 @@
+#_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,#
+#                                                                      #
+#   Project             :   Bitcoin Difficulty Parser                  #
+#                                                                      #
+#   Program Name        :   difficulty.py                              #
+#                                                                      #
+#   Author              :   Tyler Spilker                              #
+#                                                                      #
+#   Date Created        :   2013-05-06                                 #
+#                                                                      #
+#   Purpose             :   To iterate through bitcoind calls to       #
+#                           gather difficulty of every block           #
+#                                                                      #
+#_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,_,.~'`'~.,#
+
+# If this helped, please feel free to donate me some coins :)
+# BTC : 1Lu5kcCh1vU68XmAT9E9KZZAR4deEhTDr4
+# LTC : LcvAhhVPgQxRmoGDnNrCBkWdgz3n2dnEYg
+
 import os, ast, time
 path = './blockdiff'
 #os.system('echo "" >'+path)
